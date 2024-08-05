@@ -1,1 +1,2 @@
-<h1>MedSynC Major Project</h1>
+<h1>MedSynC Project</h1>
+
