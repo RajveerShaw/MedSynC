@@ -1,0 +1,100 @@
+.navbar {
+    height: 5rem;
+    width: 100%;
+    
+    display: flex;
+}
+
+.logo {
+    width: 10rem;
+    background-image: url("../images/medsync_custom_logo_transparent.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    position: relative;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.about_us {
+    font-family: Poppins;
+    font-size: 18px;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.about_us p:hover{
+    color: rgb(95, 105, 102);
+    cursor: pointer;
+}
+
+.contact_us {
+    font-family: Poppins;
+    font-size: 18px;
+    width: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.contact_us p:hover{
+    color: rgb(95, 105, 102);
+    cursor: pointer;
+}
+
+.features{
+    font-family: Poppins;
+    font-size: 18px;
+    width: 11rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.features p:hover{
+    color: rgb(95, 105, 102);
+    cursor: pointer;
+}
+
+.user {
+    font-family: Poppins;
+    font-size: 18px;
+    width: 2rem;
+    height: 5rem;
+    font-weight: 400;
+    padding-top: 5px;
+    cursor: pointer;
+    padding-top: 2px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 13rem;
+}
+
+.login_signup{
+    font-family: Poppins;
+    font-size: 18px;
+    width: 10rem;
+    height: 5rem;
+    font-weight: 400;
+    padding-top: 2px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 2rem;
+}
+
+.login_signup p:hover{
+    color: rgb(95, 105, 102);
+    cursor: pointer;
+}
