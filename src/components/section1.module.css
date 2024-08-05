@@ -56,3 +56,27 @@
     justify-content: center;
   }
 
+@media screen and (max-width: 425px) {
+    .images{
+        display: none;
+    }
+    .left{
+        width: 100%;
+    }
+    .get_started{
+        top: 150px;
+    }
+    .info{
+        font-family: Poppins;
+        font-size: 50px;
+        font-style:normal;
+        font-weight: 600;
+        width: 85%;
+        height: 50%;
+        text-align: center;
+        justify-content: center;
+        align-items:last baseline;
+        display: flex;
+        padding-left: 40px;
+    }
+}

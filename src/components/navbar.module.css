@@ -1,7 +1,6 @@
 .navbar {
     height: 5rem;
     width: 100%;
-    
     display: flex;
 }
 
@@ -97,4 +96,29 @@
 .login_signup p:hover{
     color: rgb(95, 105, 102);
     cursor: pointer;
+}
+
+@media screen and (max-width: 425px){
+    .about_us{
+        display: none;
+    }
+    .features{
+        display: none;
+    }
+    .login_signup{
+        display: none
+    }
+    .logo{
+        margin-left: 0rem;
+    }
+    .user{
+        right: 1rem;
+    }
+    .contact_us{
+        padding-top: 8px;
+        font-size: 15px;
+    }
+    .logo{
+        width: 7rem;
+    }
 }
