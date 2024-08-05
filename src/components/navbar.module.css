@@ -122,3 +122,36 @@
         width: 7rem;
     }
 }
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+    .about_us{
+        padding-top: 8px;
+        font-size: 15px;
+        width: 7rem;
+    }
+    .contact_us{
+        padding-top: 8px;
+        font-size: 15px;
+    }
+    .features{
+        display: none;
+    }
+    .login_signup{
+        display: none
+    }
+    .logo{
+        margin-left: 0rem;
+    }
+    .user{
+        right: 1rem;
+    }
+    .logo{
+        width: 7rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .features{
+        display: none;
+    }
+}

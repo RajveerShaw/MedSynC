@@ -8,7 +8,8 @@
     width: 50%;
     height: 100%;
     background-image: url("../images/istockphoto-1351305343-612x612.jpg");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .left{
@@ -20,16 +21,16 @@
 
 .info{
     font-family: Poppins;
-    font-size: 80px;
+    font-size: 5rem;
     font-style:normal;
     font-weight: 600;
-    width: 85%;
+    width: 100%;
     height: 50%;
     text-align: center;
     justify-content: center;
     align-items:last baseline;
     display: flex;
-    padding-left: 60px;
+    flex-wrap: wrap;
 }
 
 .get_started {
@@ -67,16 +68,33 @@
         top: 150px;
     }
     .info{
-        font-family: Poppins;
         font-size: 50px;
-        font-style:normal;
-        font-weight: 600;
-        width: 85%;
-        height: 50%;
-        text-align: center;
-        justify-content: center;
-        align-items:last baseline;
-        display: flex;
-        padding-left: 40px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .images{
+        display: none;
+    }
+    .left{
+        width: 100%;
+    }
+    .get_started{
+        top: 100px;
+    }
+    .info{
+        font-size: 70px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .info{
+        font-size: 70px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .info{
+        font-size: 70px;
     }
 }
