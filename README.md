@@ -1,1 +1,1 @@
-<p>Dont make changes in other users file. Create your file and work on it</p>
+<h1>MedSynC Major Project</h1>
