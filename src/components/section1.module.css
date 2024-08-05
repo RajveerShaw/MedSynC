@@ -68,7 +68,7 @@
         top: 150px;
     }
     .info{
-        font-size: 50px;
+        font-size: 60px;
     }
 }
 
@@ -83,18 +83,18 @@
         top: 100px;
     }
     .info{
-        font-size: 70px;
+        font-size: 60px;
     }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .info{
-        font-size: 70px;
+        font-size: 60px;
     }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
     .info{
-        font-size: 70px;
+        font-size: 60px;
     }
 }
