@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(66, 232, 207, 0.94);
+}
+
+.how-to-container {
+    padding: 2vw;
+    font-family: 'Poppins';
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 80vw;
+}
+
+.heading {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2vh;
+    font-size: 5vw;
+}
+
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vw;
+}
+
+.step {
+    flex: 1;
+    min-width: calc(25% - 2vw);
+    background: rgb(21, 54, 79);
+    background: linear-gradient(180deg, rgba(21, 54, 79, 1) 0%, rgba(2, 17, 24, 1) 100%);
+    padding: 2vh;
+    box-shadow: 0 0.5vh 1vh rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-inline-size: 70vh;
+}
+
+.step1 {
+    border-radius: 8px 0px 0px 8px;
+}
+
+.step4 {
+    border-radius: 0px 8px 8px 0px;
+}
+
+.step h2 {
+    color: #007BFF;
+    margin-bottom: 1vh;
+    font-size: 3vw;
+}
+
+.step p {
+    color: #ffffff;
+    line-height: 1.6;
+    font-size: 2.5vw;
+}
+
+@media (min-width: 768px) {
+    .step {
+        min-width: calc(22.5% - 2vw);
+        /* Account for gaps */
+    }
+
+    .step h2 {
+        font-size: 2vw;
+    }
+
+    .step p {
+        font-size: 1.5vw;
+    }
+}
+
+@media (min-width: 1024px) {
+    .how-to-container {
+        max-width: 80vw;
+    }
+
+    .heading {
+        font-size: 3vw;
+    }
+
+    .step {
+        min-width: calc(20% - 2vw);
+        /* Adjusted for five items if needed */
+    }
+
+    .step h2 {
+        font-size: 1.5vw;
+    }
+
+    .step p {
+        font-size: 1.2vw;
+    }
+}
+
+.step h2 {
+    display: flex;
+    flex-direction: column;
+}
