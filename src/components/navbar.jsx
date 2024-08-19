@@ -8,7 +8,7 @@ function Navbar(){
         <div className={style.contact_us}><p>Contact Us</p></div>
         <div className={style.features}><p>Features</p></div>
         <div className={style.user}><FaUserAlt /></div>
-        <div className={style.login_signup}><p>Login/SignUp</p></div>
+        <div className={style.login_signup}><p>Login</p></div>
     </div>
     </>)
 }
