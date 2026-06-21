@@ -16,7 +16,10 @@ crash.log
 *.box
 
 # Files, Folders, security keys, and Binaries to ignore
-
+node_modules/
+build/
+target/
+.env
 *~
 *.vdi
 *.box
