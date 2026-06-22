@@ -1,41 +1,68 @@
-# Cache objects
-packer_cache/
+# ===========================
+# Node / React
+# ===========================
+node_modules/
+build/
+.pnp
+.pnp.js
+/coverage
 
-# Crash log
-crash.log
+# ===========================
+# Environment Variables (NEVER commit these)
+# ===========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# Also catch renamed copies
+*(2).env
 
-# https://www.packer.io/guides/hcl/variables
-# Exclude all .pkrvars.hcl files, which are likely to contain sensitive data, 
-# such as password, private keys, and other secrets. These should not be part of 
-# version control as they are data points which are potentially sensitive and 
-# subject to change depending on the environment.
-#
-*.pkrvars.hcl
-
-# For built boxes
-*.box
-
-# Files, Folders, security keys, and Binaries to ignore
-
-*~
-*.vdi
-*.box
-.vagrant/
-*console.log
-packer-cache/
-packer_cache/
-*.pem
-*.ova
-output*/
-vagrant.d/
-.vagrant.d/
-*.iso
-variables.pkr.hcl
-*.priv
+# ===========================
+# macOS junk
+# ===========================
 .DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
+
+# ===========================
+# Logs
+# ===========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# ===========================
+# Packer / Vagrant / Infra
+# ===========================
+packer_cache/
+packer-cache/
+crash.log
+*.pkrvars.hcl
+variables.pkr.hcl
+*.box
+*.vdi
+*.ova
+*.iso
+*.pem
+*.priv
+.vagrant/
+.vagrant.d/
+vagrant.d/
+output*/
+
+# ===========================
+# SSH Keys
+# ===========================
 id_rsa
 id_rsa*
 id_rsa.pub
 id_ed25519*
-.Vagrantfile*
-id_ed25519*
+
+# ===========================
+# Duplicate / temp files
+# ===========================
+*\ (2).*
+niga.txt
