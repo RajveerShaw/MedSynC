@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, TextField, Button, Grid, Link, Typography } from '@mui/material';
+import { Box, TextField, Button, Grid, Typography } from '@mui/material';
 import { useForm, ValidationError } from '@formspree/react';
 import { useNavigate } from 'react-router-dom';
 import HeroBannerImage from '../assets/images/banner.png';
@@ -260,5 +260,3 @@ const MainPage = () => (
 );
 
 export default MainPage;
-
-

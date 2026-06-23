@@ -7,7 +7,7 @@ import signupIcon from '../assets/images/signup.jpg';
 import GoogleIcon from '@mui/icons-material/Google'; // Import Google icon
 
 const Login = () => {
-  const [credentials, setCredentials] = useState({ username: '', password: '' });
+  const [credentials] = useState({ username: '', password: '' });
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
