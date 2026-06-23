@@ -1,41 +1,51 @@
-# FitTrack
+# MedSynC
 
-FitTrack is a 3-tier web application designed to help users achieve their fitness and nutritional goals. It includes a frontend built with React.js, a backend for processing data, and a load balancer to efficiently distribute client requests across multiple servers.
+MedSynC is a comprehensive, three-tier web platform engineered to empower users in reaching their wellness and dietary targets. By seamlessly connecting a dynamic frontend, a secure backend, and an efficient load balancer, the application delivers a highly responsive and reliable user experience.
 
-## Architecture
+---
 
-- **Frontend:** Built using React.js, provides the user interface for interacting with the application. It's responsive and user-friendly, allowing users to track their exercises, nutrition, and more.
-- **Backend:** Handles business logic, database operations, and API integration. Ensures data is processed and stored securely.
-- **Load Balancer:** Distributes incoming network traffic across multiple backend servers to ensure reliability and high availability.
+## System Architecture
 
-## Features
+The application is structured into three distinct layers to ensure optimal performance and security:
 
-- **Exercise Tracker:** Log and track various exercises.
-- **Nutrition Tracker:** Monitor dietary intake.
-- **Blog:** Access fitness-related articles and tips.
-- **Health Calculator:** Tools to calculate BMI, BMR, and other health-related metrics.
-- **User Authentication:** Secure login and registration system.
+* **Frontend (React.js):** The visual, user-facing layer of the app. It provides a highly responsive and intuitive interface, making it simple for users to manage their fitness and dietary logs across different devices.
+* **Backend:** The core processing engine. It manages all business logic, handles secure database transactions, and coordinates communication with external APIs to ensure your data is always safe and accurate.
+* **Load Balancer:** The traffic manager. It evenly disperses incoming network requests across a cluster of backend servers, preventing bottlenecks and ensuring the application remains highly available.
+
+## Core Features
+
+* **Workout Tracker:** Easily log, organize, and monitor your exercise routines.
+* **Dietary Tracker:** Keep a close eye on your daily meals and nutritional intake.
+* **Wellness Blog:** Read curated articles, tips, and insights related to health and fitness.
+* **Health Calculators:** Instantly assess personal health metrics with built-in BMI and BMR calculators.
+* **Secure Authentication:** Protect your personal progress with a safe, encrypted login and registration system.
 
 ## Technology Stack
 
-- **React.js:** Used for building the frontend.
-- **Proxmox:** Virtual environment to view and manage the infrastructure.
-- **APIs:** Integrates various external APIs for fetching exercise data, nutrition information, etc.
+| Technology | Purpose |
+| --- | --- |
+| **React.js** | Constructs the interactive, component-based user interface. |
+| **Proxmox** | Provides the virtualized environment used to host and monitor the server infrastructure. |
+| **External APIs** | Connects the application to third-party databases to fetch accurate, real-time exercise and nutrition data. |
 
-## Deployment
+## Campus Deployment
 
-The application is designed to be accessible on school Wi-Fi, ensuring it is easily available to students and staff. It uses a load balancer to manage traffic, which helps in handling multiple requests without any downtime.
+Designed specifically for the campus community, MedSynC is readily accessible over the school's Wi-Fi network for both students and staff. Thanks to its load-balanced architecture, the application easily accommodates high volumes of concurrent users, guaranteeing smooth, zero-downtime access even during peak usage hours.
 
-## Getting Started
+---
 
-To run the application on your local machine, follow these steps:
+## Local Environment Setup
 
-1. Clone the repository to your local machine.
-2. Navigate to the project directory and install dependencies: npm install
-3. Start the development server: npm start
-4. Open your browser and visit `http://localhost:3000` to view the application.
+To run MedSynC on your personal computer for development or testing, follow these steps:
 
-## Contact
+1. **Clone** the project repository down to your local machine.
+2. **Install** the required dependencies by opening your terminal, navigating into the root directory of the project, and running:
+> `npm install`
 
-Bisma Khan - [bismak0220@gmail.com](mailto:bismak0220@gmail.com)
+
+3. **Boot up** the local development server by executing:
+> `npm start`
+
+
+4. **Launch** the app by opening your web browser and navigating to: `http://localhost:3000` to view the application.
 
